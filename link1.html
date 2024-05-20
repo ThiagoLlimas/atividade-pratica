@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        * {
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        
+        header {
+            /* font-size: 25px; */
+            text-align: center;
+            background-color: rgb(1, 10, 10);
+        }
+
+        body {
+            background-color: beige;
+            font-size: 20px;
+
+        }
+
+        .compilado {
+           text-align: center;
+           margin-top: 200px;
+        }
+
+       
+        .secao li {
+            display: inline;
+        }
+
+        #list li {
+            display: inline;
+        }
+
+        aside {
+            position: fixed;
+            top: 0px;
+            right: 0px;
+            width:250px;
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            align-items: center;
+            min-height: 20vh;
+        }
+
+        article {
+            text-align: center;
+            
+        }
+
+        .menu-central {
+          text-align: center;
+          margin-top: 260px;
+          display: flex;
+          list-style: none;
+        }
+
+        .icones {
+            transition: 0.2s ease-in-out;
+        }
+
+        .icones:hover{
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hobbies</h1>
+    </header>
+    <article>
+        <br>
+        <ul id="list">
+            <li style="color:green">Futebol</li>
+            <li style="color:blue">Música</li>
+            <li style="color:brown">Caminhada</li>
+            <li style="color: blueviolet;">Séries/Filmes</li>
+        </ul>
+    </article>
+    <section class="compilado">
+        <img src="pags/img/futebol1.jpg" alt="Campo De Futebol com uma bola">
+        <img src="pags/img/musica1.jpg" alt="Homem Ouvindo Música">
+        <img src="pags/img/caminhada1.jpg" alt="Homem em cima de um penhasco">
+        <img src="pags/img/series1.jpg" alt="Pessoa Acessando Séries">
+    </section>
+
+    <aside>
+        <ul class="secao">
+            <li><a href="../index.html">Formação</a></li>
+            <li><a href="link2.html">Projetos</a></li>
+            <li><a href="link3.html">Contato</a></li>
+        </ul>    
+    </aside>
+
+    <ul class="menu-central">
+        <li><a href="https://github.com/ThiagoLlimas" target="_blank"><img src="png-redes-sociais/github-64.png" alt="github" class="icones"></a></li>
+
+        <li><a href="https://www.linkedin.com/in/thiago-lima-271138270/" target="_blank"><img src="png-redes-sociais/linkedin-2.png" alt="linkedin" class="icones"></a></li>
+    </ul>
+</body>
+</html>
